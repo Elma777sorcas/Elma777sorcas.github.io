@@ -1,15 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Presentación</title>
+  <link rel="stylesheet" href="estilos.css">
+  <style>/* Estilo general para el cuerpo de la página */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #CDE1AD;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 
-<link rel="stylesheet" href="estilos.css">
+/* Estilo para los títulos */
+h1 {
+  color: #DC1E00;
+  font-size: 3em;
+  margin-top: 50px;
+}
 
+h2 {
+  color: #FF6347;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+/* Estilo para los botones */
+button {
+  background-color: #432CE1;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff63b3;
+  transform: scale(1.1);
+}
+
+/* Posicionamiento y estilo de los botones arriba */
+.botones-arriba {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.botones-arriba .btn-uwu {
+  margin: 0 15px;
+}
+
+/* Posicionamiento y estilo de los botones abajo */
+.botones-abajo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.botones-abajo .btn-uwu {
+  margin: 0 10px;
+}
+</style>
 </head>
 <body>
+  
+  <div class="botones-arriba">
+    <button class="btn-uwu">Inicio</button>
+    <button class="btn-uwu">Perfil</button>
+    <button class="btn-uwu">Museo</button>
+    <button class="btn-uwu">Formulario</button>
+    
+    <button class="btn-uwu">uwu</button>
+  </div>
+
+  
   <h1>Gerardo Hernández Bv</h1>
   <h2>Estudiante</h2>
-  <p>Me dedico a estudiar en el CEB 5/4 "Prof. Rafael Ramírez aunque mi desempeño es muy mejorable en diversos aspectos, pero cuando me lo propongo...!!Soy el Mejor¡¡ ¿lo malo? es que casi nunca lo hago y me distraigo demasiado fácil, aún así puedo lograr las metas y propósitos que me interesan </p>
+  <p>Me dedico a estudiar en el CEB 5/4 "Prof. Rafael Ramírez aunque mi desempeño es muy mejorable en diversos aspectos, pero cuando me lo propongo...!!Soy el Mejor¡¡ ¿lo malo? es que casi nunca lo hago y me distraigo demasiado fácil, aún así puedo lograr las metas y propósitos que me interesan.</p>
+
+<div class="imagen">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEUAAAAWFhbgefrMAPoMDAwFBQVlZ2sUFBQQEBAYGBjke/9oam0JCAcaGhrSAP8ACACpW7WUUqKFAKCaALUADgAPFA7hfvrOGfrgdfrvgf86JkCMTpbUQfrknvrogf+VVaJbYl+bE7WrW7m3ZMAwITVtPm+hM7enV7S8jMqHEaCRTKCbVKYqHi4KEghdNWCKK6CuhruSlZn3aOs5AAACUUlEQVR4nO3dx3YTQRBA0TbIysYE4QByIhgwwfD/P8eOXdXhlJlmZN23r1Zfazd15Gnrw7jFUVwyNkiz5C6zeKxN22GLmx3EJWODNE/uMk/mCAn7RRhFSNgvwihCwn4RRhES9oswipCwX4RRhIT9Iowi3GfhLO4gOzNrkhya3WUYYdKiLKx9HiEhISEhISEhISEhISEhISEhISEhIeGeCBfF/UNxp5GWKSbpXyY8cr1qR8mpA3y/5XJhGCFhxwiDCAk7RhhESNgxwiBCwo4RBhESdowwiJCwY4RB+yFchB3tjDBGTFYt+z9RyaGjEmaEfPe0K8IsQkJCQkJCQkJCQkJCQkJCQkJCQkLChwo7Ax8grHac9Lqo2CRnVu953Z4n3byKexePvf9QI24+JofeJne5jcc+fW7LuMvTZ3Fn8dz5m6Lw7WV86Da5yzaeO7toT+JOTp/GncVzdeEyvss2ucv2JJwjJCQkJCQkJCQkJCQkJCQkJCQkJCT8I0weM/d/5n0e36X4zHt50V7EXX15GXcXz339VhN+/5Ecep/c5f4qHLv72TZJ1X1P9j6RrOqC6TghXJd/95RV3Z5Wd4TD/LKLkJCQkJCQkJCQkJCQkJCQkJCQkHCPhOX3VHQXLjLhJGleLDsz7d9/3l68o4SQkJCQkJCQkJCQkJCQkJCQkJCQkJDwsQizh/7VvUVVuB5kbzHE7ql3+e5piP1h7/pvSHtHSDj+CAnHHyHh+CMkHH+EhOOPkHD8ERKOP8LHLpys4/73zf+6hDBtq6TpjpQZfv0G0CYJH1MFm3YAAAAASUVORK5CYII="alt="Imagen ">
+    
+  </div>
+  
 </body>
 </html>
